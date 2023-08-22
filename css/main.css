@@ -1,0 +1,89 @@
+.navbar {
+    height: 100px;
+    width: inherit;
+    margin: 0;
+    background-color: rgb(178, 237, 218);
+    color: rgb(34, 88, 71);
+    padding: 10px;
+    display: flex;
+    padding: 25px;
+    /* position:absolute; */
+}
+.navbar h1{
+    height: 50px;
+    font-size: 40px;
+}
+.navbar a{
+    text-decoration: none;
+}
+.container{
+    position:relative;
+}
+.container,.row{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.set{
+    background-color: rgb(178, 237, 218);
+    color: rgb(34, 88, 71);
+    margin-bottom: 10px;
+    font-size: 20;
+}
+.space{
+    width:34px;
+}
+.sit{
+    background-color: rgb(178, 237, 218);
+    height: 30px;
+    width: 30px;
+    margin:2px;
+    display: flex;
+    justify-content: center;
+    border-radius: 2px;
+}
+.sit:hover{
+    background-color: rgb(71, 110, 98);
+}
+#modal_back{
+    height: 100%;
+    width:100%;
+    position:absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.235);
+    z-index: 20;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    visibility: hidden;
+}
+#edit_form{
+    margin-top:70px;
+    height: 400px;
+    width:300px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    z-index: 30;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    visibility: hidden;
+    position: absolute;
+}
+#view_sit{
+    margin-top:70px;
+    height: 600px;
+    width:400px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    z-index: 30;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    visibility: hidden;
+}
+#my_booking{
+    position: absolute;
+    right:20px;
+    background-color: rgb(90, 137, 125);
+    color: rgb(255, 255, 255);
+}
+#my_booking:hover{
+    background-color: rgba(74, 115, 104, 0.723);;
+}
